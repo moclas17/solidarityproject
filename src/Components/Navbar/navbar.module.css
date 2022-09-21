@@ -1,39 +1,27 @@
-.custom-checkbox .custom-control-input:checked ~ .custom-control-label::before {
-  background-color: green!important;
-}
-
-
-.hide {
-  display : none;
-}
 
 .logo {
-  width : 15%;
+  width : 10%;
   height : 50px;
-}
-.noFormat {
-  text-decoration: none;
-}
-
-.nav {
-  display: flex !important;
-  flex-direction: row !important;
-  flex-wrap: nowrap;
-  justify-content: space-evenly;
-  align-items: center;
+  margin-right: 30px;
 }
 
 .navContainer{
   display: flex;
-  width: 60%;
+  width: 65%;
   flex-direction: row !important;
   justify-content: space-between;
 }
 
-.navAzul {
+.darkNav,
+.blueNav {
   background: linear-gradient(125.31deg, #457AFF 0%, #429DFF 47.92%, #3FBAFF 100%);
   font-weight: bold;
   font-size: 18px;
   display: flex;
   justify-content: space-around;
+  padding: 5px;
+}
+
+.darkNav { 
+  background : rgb(57, 51, 143) !important;
 }
